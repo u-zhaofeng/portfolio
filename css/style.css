@@ -171,7 +171,7 @@ textarea {
       padding: 8rem 0; } }
 
 .text-primary {
-  color: #fff;
+  color: black;
   font-size: 2.2rem;
   text-align: center;
   width: 100%;
@@ -184,8 +184,11 @@ textarea {
   display: none; }
 
 .home-hero {
-  color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  color: black;
+  background-image: url(../../assets/jpeg/art.jpg);
+  width: 100vw;
+  background-size: cover;
+  background-color: white;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -195,15 +198,10 @@ textarea {
     .home-hero {
       height: unset;
       min-height: unset; } }
-  .home-hero__socials {
-    position: absolute;
-    top: 50%;
-    border: 2px solid #eee;
-    border-left: 2px solid #eee;
-    transform: translateY(-50%); }
-    @media only screen and (max-width: 56.25em) {
+
+    /* @media only screen and (max-width: 56.25em) {
       .home-hero__socials {
-        display: none; } }
+        display: none; } } */
   .home-hero__mouse-scroll-cont {
     position: absolute;
     bottom: 3%;
@@ -498,7 +496,7 @@ textarea {
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #fff;
+  background: #f4f4f4;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
@@ -535,6 +533,7 @@ textarea {
     object-position: center;
     display: block; }
   .header__logo-sub {
+    padding-left: 31.2px;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
