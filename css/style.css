@@ -185,7 +185,7 @@ textarea {
 
 .home-hero {
   color: black;
-  background-image: url(../../assets/jpeg/art.jpg);
+  background-image: url(../assets/jpeg/art.jpg);
   width: 100vw;
   background-size: cover;
   background-color: white;
