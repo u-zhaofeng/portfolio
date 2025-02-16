@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Zhao Feng | Custom Week Number - Chrome Extension</title>
+    <meta name="description" content="Case study page of Project" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <span class="header__logo-sub">Zhao Feng</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="project-cs-hero">
+      <div class="project-cs-hero__content">
+        <h1 class="heading-primary">Custom Week Number - Chrome Extension</h1>
+        <div class="project-cs-hero__info">
+          <p class="text-primary">
+            Struggled with a problem on Google calendar, and challenged myself to find a solution in a form of an extension. 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="project-details">
+      <div class="main-container">
+        <div class="project-details__content">
+          <div class="project-details__showcase-img-cont">
+          <iframe class="project-details__showcase-img" width="100%" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/oV8Gw50A4LQ" title="How to Set Custom Week Numbers in Google Calendar (Chrome Extension)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div class="project-details__content-main">
+            <div class="project-details__desc">
+              <h3 class="project-details__content-title">Project Overview</h3>
+              <p class="project-details__desc-para">
+                When I was going through the semesters in school, I used Google Calendar extensively to manage my busy schedule. However, I quickly realised that I could not change the week number to correspond to my school week. After searching relentlessly in vain for solutions, I decided to create my own solution in the form of a Chrome Extension, not only to help myself, but also to help others in the same plight.
+              </p>
+              <p class="project-details__desc-para">
+                The biggest challenge I faced when working on this project was understanding Google Calendar's native HTML and JavaScript code, so that I could modify them effectively. In hindsight, I realised how important this skill is as rarely in software develpment do one get to start from scratch. This project definitely helped me work on this skill. 
+              </p>
+            </div>
+            <div class="project-details__tools-used">
+              <h3 class="project-details__content-title">Tools Used</h3>
+                <div class="skills">
+                  <div class="skills__skill">HTML</div>
+                  <div class="skills__skill">CSS</div>
+                  <div class="skills__skill">Bootstrap</div>
+                  <div class="skills__skill">JQuery</div>
+                  <div class="skills__skill">JavaScript</div>
+                  <div class="skills__skill">Chrome API</div>
+                </div>
+            </div>
+              <div class="project-details__links">
+                <h3 class="project-details__content-title">Chrome Web Store Page</h3>
+                <a
+                  href="https://chrome.google.com/webstore/detail/custom-week-number-google/fjaidefhllhbbhlfnnopcoljnhimiakp?hl=en&authuser=1"
+                  class="btn btn--med btn--theme project-details__links-btn"
+                  target="_blank"
+                  >WebStore Link</a
+                >
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Zhao Feng</h4>
+            <p class="main-footer__short-desc">
+              Welcome to my Portfolio, thanks for stopping by!
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

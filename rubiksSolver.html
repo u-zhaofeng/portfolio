@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Zhao Feng | Wrecking Draw</title>
+    <title>Zhao Feng | Rubik's Cube Analyser and Solver</title>
     <meta name="description" content="Case study page of Project" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -70,14 +70,11 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Wrecking Draw</h1>
+        <h1 class="heading-primary">Rubik's Cube Analyser and Solver</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            I had thought of a game idea and simply couldn't let it go to waste. Publishing it definitely made the months of work worth it though!
+           This challenging project was sparked by a theory I had about automating the process of solving a Rubik's cube without any user input.
           </p>
-        </div>
-        <div class="project-cs-hero__cta">
-          <a href="https://play.google.com/store/apps/details?id=com.zfs.wreckingdraw&pli=1" class="btn btn--bg" target="_blank">PlayStore Link</a>
         </div>
       </div>
     </section>
@@ -85,36 +82,43 @@
       <div class="main-container">
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
-            <iframe width= "100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/9CLVf-Z3y8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="project-details__showcase-img" style="aspect-ratio: 16/9" src="https://www.youtube.com/embed/gJ575MQ94TA" title="Rubik&#39;s cube analyzer/solver demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Note: In the video, the solution printed out is in <a target="_blank" style="TEXT-DECORATION: underline" href="https://ruwix.com/the-rubiks-cube/notation/">standard Rubik's Cube notation</a></h2>
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <p class="project-details__desc-para">
-                I was always interested in the game development process, as a gamer myself. Therefore, when I randomly thought of a good game idea, I saw it as a good opportunity to expand my knowledge in that direction. 
-                Given that I had internship during the day, I didn't have much time for this and had to sacrifice some of my sleep to complete it. After about 3 months of work, I published this to the PlayStore and it was all worth it in the end. 
+                
               </p>
               <p class="project-details__desc-para">
-                Through this experience, I learnt a lot about all aspects of game development. I saw this as more of a coding challenge though, and felt that my coding and problem solving skills have definitely improved. 
-                I look forward to making more games and put this game development skills and concepts to good use.   
-              </p>
+                Before I learnt how to solve a Rubik's cube, I used a tool online that generated the solution for any configuration of a cube. Only problem is that I have to input all 6 faces one by one. Ever since then, I've always wondered if it was possible to read all faces of a Rubik's cube using software and generate a solution with no user input at all. I expanded on this idea and eventually realised that if I rotate the cube at one of its corners, a camera set at a fixed point could capture all faces of the cube. I decided to put this theory to the test by developing and assembling both software and hardware, and eventually, I managed to achieve this.
+              </p>     
+              
+              <p class="project-details__desc-para">
+                Working with machine learning was challenging to say the least, requiring extensive troubleshooting to deal with inaccurate detections. After having to train and fine-tune my own YOLOv8 model to detect the corners of the cube, I completed this project with a greater appreciation for machine learning and its potential.
+              </p>                
+              <p class="project-details__desc-para">
+                A big part of this project relied on image processing, being able to tell the colors apart in inconsistent lighting conditions. After attempting many solutions for this problem, I can safely say my knowledge and understanding of image processing has greatly improved.
+              </p>  
             </div>
             <div class="project-details__tools-used">
-              <h3 class="project-details__content-title">Tools Used</h3>
+              <h3 class="project-details__content-title">Skills Required</h3>
               <div class="skills">
-                <div class="skills__skill">Unity</div>
-                <div class="skills__skill">C#</div>
-                <div class="skills__skill">Photoshop</div>
+                <div class="skills__skill">ESP-32 CAM</div>
+                <div class="skills__skill">Electronics</div>
+                <div class="skills__skill">Image Processing</div>
+                <div class="skills__skill">Machine Learning</div>
               </div>
             </div>
-            <div class="project-details__links">
-              <h3 class="project-details__content-title">See PlayStore Page</h3>
-              <a
-                href="https://play.google.com/store/apps/details?id=com.zfs.wreckingdraw&pli=1"
-                class="btn btn--med btn--theme project-details__links-btn"
-                target="_blank"
-                >PlayStore Link</a
-              >
+            <div class="project-details__showcase-img-cont">
+              <h3 class="project-details__content-title">Gallery</h3>
+              <img class="showcaseImg" src="projectImages\rubiksCubeSolver\3.jpg" alt="">
+              <img class="showcaseImg" src="projectImages\rubiksCubeSolver\3.png" alt="">
+              <img class="showcaseImg" src="projectImages\rubiksCubeSolver\right.png" alt="">
+              <img class="showcaseImg" src="projectImages\rubiksCubeSolver\code.png" alt="">
+              <img class="showcaseImg" src="projectImages\rubiksCubeSolver\cover.jpg" alt="">
+
             </div>
           </div>
         </div>
